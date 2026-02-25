@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  tessitore-di-cronache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tessitore-di-cronache-app
+    container_name: tessitore-di-cronache
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
