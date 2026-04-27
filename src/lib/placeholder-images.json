@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A top-down view of a D&D tabletop setup with dice, maps, and miniatures.",
+      "imageUrl": "https://images.unsplash.com/photo-1651287898571-b678c99f30af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkbmQlMjB0YWJsZXRvcHxlbnwwfHx8fDE3NjkzNzQ5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dnd tabletop"
+    }
+  ]
+}
